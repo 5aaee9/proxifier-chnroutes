@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "commonjs",
+        "lib": [
+            "es2015",
+            "es2015.promise",
+            "dom"
+        ],
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "declaration": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules", "dist"
+    ],
+    "compileOnSave": true
+}
