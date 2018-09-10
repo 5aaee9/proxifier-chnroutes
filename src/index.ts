@@ -36,7 +36,7 @@ async function main() {
 
         data += `        <Rule enabled="true">
             <Name>${name}</Name>
-            <Target>${routeText}</Target>
+            <Targets>${routeText}</Targets>
             <Action type="Direct" />
         </Rule>\n`
     }
