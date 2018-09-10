@@ -34,7 +34,7 @@ async function main() {
             .map(i => `${cidr.range(i).start}-${cidr.range(i).end}`)
             .join(';')
 
-        data += `        <Rule enable="true">
+        data += `        <Rule enabled="true">
             <Name>${name}</Name>
             <Target>${routeText}</Target>
             <Action type="Direct" />
